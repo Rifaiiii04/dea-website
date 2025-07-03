@@ -5,7 +5,7 @@ export default function AboutMe() {
     <>
       <div
         id="about"
-        className="contaier w-[88%] lg:min-h-screen h-full mx-auto p-5  px-10 mb-5 "
+        className="contaier w-[88%] min-h-screen  mx-auto p-5  px-10 mb-5 "
       >
         <div className="box-content w-full h-full grid grid-cols-1 md:grid-cols-2 md:gap-14 lg:gap-0 gap-14 items-center justify-between">
           <div className="content flex items-center justify-center relative">
