@@ -6,7 +6,7 @@ export default function Project() {
     <>
       <div
         id="projects"
-        className="container mx-auto w-full min-h-screen mt-28 "
+        className="container mx-auto w-full min-h-screen  "
       >
         <div className="box-content mx-auto w-[88%] h-full">
           <div className="content w-full h-full relative">

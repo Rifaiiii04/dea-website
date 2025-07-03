@@ -6,7 +6,7 @@ export default function Skills() {
     <>
       <div
         id="skills"
-        className="container w-full min-h-screen mt-28 "
+        className="container w-full min-h-screen  "
       >
         <div className="box-content mx-auto w-[88%] h-full">
           <div className="content w-full h-full relative">

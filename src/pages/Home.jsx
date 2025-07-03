@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <div
         id="home"
-        className="container  w-full mx-auto lg:min-h-screen px-10 md:mb-28 lg:mb-0 mb-28 mt-32 min-h-screen"
+        className="container  w-full mx-auto lg:min-h-screen px-10 mt-32 min-h-screen"
       >
         <div className="box-content  md:w-full lg:w-[88%] w-[88%] mx-auto p-3 grid md:grid-cols-[80px_2fr_2fr] grid-cols-1 gap-10 md:gap-2  justify-between items-center">
           <div className="content w-full  md:w-14 flex flex-row md:flex-col md:order-1 order-3 items-center gap-4 justify-center h-full ">
