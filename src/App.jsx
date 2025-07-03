@@ -8,12 +8,14 @@ import Project from "./pages/Project";
 function App() {
   return (
     <>
-      <Navbar />
-      <Home />
-      <AboutMe />
-      <Skills />
-      <Project />
-      <Footer />
+      <div className="overflow-x-hidden">
+        <Navbar />
+        <Home />
+        <AboutMe />
+        <Skills />
+        <Project />
+        <Footer />
+      </div>
     </>
   );
 }
