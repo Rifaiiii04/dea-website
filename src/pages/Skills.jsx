@@ -6,9 +6,9 @@ export default function Skills() {
     <>
       <div
         id="skills"
-        className="container w-full min-h-screen  "
+        className="container w-full min-h-screen mt-28 md:mt-0 "
       >
-        <div className="box-content mx-auto w-[88%] h-full">
+        <div className="box-content mx-auto w-[88%]  h-full">
           <div className="content w-full h-full relative">
             <h1 className="text-center text-4xl font-bold">My Skills</h1>
             <img
