@@ -56,8 +56,14 @@ export default function Footer() {
 
       {/* Bottom copyright */}
       <div className="border-t border-gray-700 mt-10 pt-5 text-center text-sm text-gray-500">
-        &copy; {new Date().getFullYear()} Muhamad Rifai. Dibuat dengan React &
-        TailwindCSS.
+        &copy; {new Date().getFullYear()}{" "}
+        <a
+          href="https://www.linkedin.com/in/muhamad-rifai-553a212a7"
+          target="_blank"
+        >
+          Muhamad Rifai.
+        </a>{" "}
+        Dibuat dengan React & TailwindCSS.
       </div>
     </footer>
   );

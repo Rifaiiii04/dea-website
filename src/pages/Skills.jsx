@@ -1,10 +1,17 @@
 import Skill from "../assets/images/skill.png";
 import skills from "../data/SkillData";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export default function Skills() {
+  useEffect(() => {
+    Aos.init({ duration: 800 });
+  }, []);
   return (
     <>
       <div
+        data-aos="fade-right"
         id="skills"
         className="container w-full min-h-screen mt-28 md:mt-0 "
       >

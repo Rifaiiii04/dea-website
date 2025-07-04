@@ -1,10 +1,17 @@
 import Card from "../components/Card";
 import ProjectData from "../data/ProjectData";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export default function Project() {
+  useEffect(() => {
+    Aos.init({ duration: 800 });
+  }, []);
   return (
     <>
       <div
+        data-aos="fade-left"
         id="projects"
         className="container mx-auto w-full min-h-screen  "
       >
@@ -20,6 +27,7 @@ export default function Project() {
                   desc={project.desc}
                   tech={project.tech}
                   role={project.role}
+                  url={project.url}
                 />
               ))}
             </div>

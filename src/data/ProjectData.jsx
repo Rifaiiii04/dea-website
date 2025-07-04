@@ -1,5 +1,6 @@
 import Ayocode from "../assets/project/ayocode.jpeg";
 import Hijauloka from "../assets/project/hijauloka.png";
+import Klinik from "../assets/project/klinik.jpg";
 
 const projects = [
   {
@@ -8,6 +9,7 @@ const projects = [
     img: Ayocode,
     tech: "Figma || Blender",
     role: "UI Designer",
+    url: "https://www.figma.com/design/VyeyZ9iFsnq1Aoveg361t5/AyoCode-?node-id=184-11&t=UurtivOiFYQeWxYC-1",
   },
   {
     title: "HijauLoka",
@@ -15,6 +17,15 @@ const projects = [
     img: Hijauloka,
     tech: "CodeIgniter 3 || TailwindCSS",
     role: "Front-End Web",
+    url: "https://github.com/Rifaiiii04/hijauloka-user.git",
+  },
+  {
+    title: "SiPeka",
+    desc: "Thrilled to share the successful completion of our 4-month project, Sipeka—a web-based digital registration system developed using HTML, CSS, and PHP for Klinik Kinasih. As a Fullstack Developer and UI/UX Designer, I had the privilege of working with a dedicated team of five to streamline patient registration through technology. Grateful for the support of our mentors, instructor, and everyone who guided us along the way.",
+    img: Klinik,
+    tech: "PHP || HTML || CSS",
+    role: "FullStack Dev",
+    url: "https://github.com/deaamelia15/webnative",
   },
 ];
 

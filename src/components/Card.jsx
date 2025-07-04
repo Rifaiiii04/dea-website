@@ -1,4 +1,4 @@
-export default function Card({ img, desc, title, tech, role }) {
+export default function Card({ img, desc, title, tech, role, url }) {
   return (
     <>
       <div className="card w-full h-full p-3 bg-neutral-950 px-5 rounded-lg shadow-md shadow-blue-950 ">
@@ -10,6 +10,13 @@ export default function Card({ img, desc, title, tech, role }) {
               <p className="text-xs opacity-60 ">Role : {role}</p>
               <p className="text-xs opacity-60 ">Tech : {tech}</p>
             </div>
+            <a
+              href={url}
+              target="_blank"
+              className="px-3 py-1 rounded-sm hover:bg-blue-600 active:bg-blue-700 transition-all duration-300 text-sm font-semibold bg-blue-500"
+            >
+              Visit Project
+            </a>
           </div>
           <div className="w-full h-full order-1 md:order-2 flex justify-end items-end">
             <img

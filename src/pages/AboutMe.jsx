@@ -1,9 +1,16 @@
 import Profile from "../assets/images/deea.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export default function AboutMe() {
+  useEffect(() => {
+    Aos.init({ duration: 800 });
+  }, []);
   return (
     <>
       <div
+        data-aos="fade-left"
         id="about"
         className="contaier w-[88%] min-h-screen  mx-auto p-5  px-10  "
       >
